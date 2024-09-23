@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.letter {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+.section {
+    display: none;
+    margin-top: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+/* Estilo para el botón de reproducir música */
+.play-button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block; /* Asegura que el botón esté en una nueva línea */
+    margin: 10px auto; /* Centra el botón */
+}
+
+.play-button:hover {
+    background-color: #ff1493; /* Cambia el color al pasar el mouse */
+}
+
+.gif {
+    width: 300px;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

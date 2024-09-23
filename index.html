@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="letter">
+        <h1>Una carta para ti, Ari 💖</h1>
+
+        <div class="section" id="section1">
+            <p>Hola, mi amor. 🌸 Desde el primer día que hablamos, supe que algo especial estaba a punto de suceder.</p>
+            <button onclick="nextSection(1)">Siguiente</button>
+            <button class="play-button" onclick="playMusic()">Reproducir Música</button>
+        </div>
+
+        <div class="section" id="section2">
+            <p>Han sido 3 meses maravillosos a tu lado. No importa la distancia, tú siempre logras hacerme sentir cerca. 🌷</p>
+            <button onclick="nextSection(2)">Siguiente</button>
+            <button class="play-button" onclick="playMusic()">Reproducir Música</button>
+        </div>
+
+        <div class="section" id="section3">
+            <p>Cada día contigo me enseña lo afortunado que soy de tenerte en mi vida. 💕 Me haces sentir comprendido, amado y querido de una manera que nunca antes había experimentado.</p>
+            <button onclick="nextSection(3)">Siguiente</button>
+            <button class="play-button" onclick="playMusic()">Reproducir Música</button>
+        </div>
+
+        <div class="section" id="section4">
+            <p>Aunque estemos lejos, hemos creado momentos únicos, como nuestras aventuras en Roblox y nuestras largas charlas llenas de risas. 💫</p>
+            <p>Esas experiencias me recuerdan que, aunque no estemos físicamente juntos, estamos conectados de una manera especial. 🌟</p>
+            <button onclick="nextSection(4)">Siguiente</button>
+            <button class="play-button" onclick="playMusic()">Reproducir Música</button>
+        </div>
+
+        <div class="section" id="section5">
+            <p>Quiero pedirte perdón por las veces en que te he hecho enojar. 🙏 Sé que no soy perfecto, pero cada día me esfuerzo por ser la mejor versión de mí para ti. 💖</p>
+            <p>Eres mi motivación, mi alegría, y mi razón para mejorar. 🌸</p>
+            <button onclick="nextSection(5)">Siguiente</button>
+            <button class="play-button" onclick="playMusic()">Reproducir Música</button>
+        </div>
+
+        <div class="section" id="section6">
+            <p>Gracias, mi amor, por tu paciencia, por tu comprensión y por todo el cariño que me has dado. Eres lo mejor que me ha pasado, y no puedo esperar para seguir creando más recuerdos contigo. ❤️</p>
+            <p>No sé qué sucederá en el futuro, pero sé que mientras esté contigo, todo será increíble. 🌹</p>
+            <button onclick="nextSection(6)">Siguiente</button>
+            <button class="play-button" onclick="playMusic()">Reproducir Música</button>
+        </div>
+
+        <div class="section" id="section7">
+            <p>Te amo hasta el infinito y más allá. No importa lo que venga, siempre estaré a tu lado. ✨</p>
+            <p>Gracias por estos 3 meses increíbles, y por ser tú misma, esa persona increíble que amo con todo mi corazón. 💌</p>
+            <img src="corazon.gif" alt="Corazón animado" class="gif">
+            <p>Con todo mi amor, tu novio Sebas. 💖</p>
+        </div>
+    </div>
+
+    <audio id="music" src="musica.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
